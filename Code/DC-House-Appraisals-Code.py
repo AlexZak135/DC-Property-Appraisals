@@ -21,7 +21,6 @@ from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 # Load to train, test, and evaluate machine learning models
 from catboost import CatBoostRegressor, Pool
-import joblib
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression 
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error 
@@ -677,6 +676,3 @@ model_metrics = pd.concat([model_metrics, pd.DataFrame({
     np.mean(np.exp(y2_train - xgb_fit.predict(x2_train)))  
     ), ",.0f"),   
   }, index = [0])], ignore_index = True)
-
-# Save the trained model that uses an XGBoost algorithm in a pickle file
-joblib.dump(xgb_fit, "DC-House-Appraisals-Model.pkl")
