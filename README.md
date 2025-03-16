@@ -11,4 +11,4 @@ This research utilized multiple DC residential data sources maintained by the Wa
 These are the [Python scripts](https://github.com/AlexZak135/DC-Residential-Property-Appraisals/tree/main/Code) containing the code used for this analysis, and these are the [datasets](https://github.com/AlexZak135/DC-Residential-Property-Appraisals/tree/main/Data) used in the scripts.
 
 ## Outputs
-These outputs display the performance and error metrics from the machine learning models.
+These [outputs](https://github.com/AlexZak135/DC-Residential-Property-Appraisals/tree/main/Outputs) display the performance and error metrics from the machine learning models.
